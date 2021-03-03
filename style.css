@@ -50,8 +50,7 @@
 }
 .home {
   display: flex;
-  background: url("images/DSC.0195.JPG") no-repeat center;
-  height: 100vh;
+  height: 100px;
   min-height: 500px;
   font-family: "Ubuntu",sans-serif;
 }
@@ -86,8 +85,7 @@
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color:  #6f00ff;
-  background: none;
+  color:  #d2d2d2;
 }
 body {
   background-color: #d2d2d2;
@@ -100,6 +98,41 @@ p {
   p span {
     color: #6f00ff;
     padding-top: 25px;
+  }
+  .social {
+    border: 0;
+  }
+  .navbar2 {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    background: #828282;
+    font-family: "Ubuntu",sans-serif;
+    margin-top: 25px;
+  }
+  .navbar2 .max2-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar2 .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    }
+  .navbar2 .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+  .navbar2 .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease
+  }
+  .navbar2 .menu2 li a:hover {
+    color: #d2d2d2;
   }
 @media (max-width: 1104px){
   .home .max-width {
