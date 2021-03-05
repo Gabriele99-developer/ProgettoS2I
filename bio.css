@@ -58,7 +58,18 @@
   margin: auto 0 auto 40px;
 }
 .home .home-content .text-1 {
-  font-size: 27px;
+  font-size: 75px;
+}
+.home .home-content .text-2 {
+  font-size: 18px;
+}
+.home .home-content img {
+  margin-top: 400px;
+  height: 296px;
+  weight: 296px;
+}
+span {
+  color: #6f00ff;
 }
 body{
   background-color:  #d2d2d2;
