@@ -101,38 +101,31 @@ p {
   }
   .social {
     border: 0;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
   }
-  .navbar2 {
-    position: fixed;
-    width: 100%;
-    padding: 30px 0;
-    background: #828282;
-    font-family: "Ubuntu",sans-serif;
-    margin-top: 25px;
-  }
-  .navbar2 .max2-width{
+
+  .max2-width{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background-color: #828282;
+    margin-top: 200px;
+    width: 100%;
+    align-items: right;
+    padding: 50px;
   }
-  .navbar2 .logo a{
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-    }
-  .navbar2 .menu li {
-    list-style: none;
-    display: inline-block;
+  .pippo{
+    position: relative;
+    left: 800px;
   }
-  .navbar2 .menu li a{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease
+  .copy {
+    position: relative;
+    left: 450px;
   }
-  .navbar2 .menu2 li a:hover {
-    color: #d2d2d2;
+  .copy span {
+    position: relative;
+    left: 125px;
   }
 @media (max-width: 1104px){
   .home .max-width {
@@ -146,7 +139,7 @@ p {
   }
   }
 @media (max-width:947px) {
-  .max-width {
+  .max-width{
     padding: 0 50px;
   }
   .menu-btn {
@@ -190,7 +183,7 @@ p {
 }
 }
 @media (max-width:690px) {
-  .max-width {
+  .max-width{
     padding: 0 23px;
   }
 .home .home-content .text-2 {
