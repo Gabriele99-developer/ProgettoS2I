@@ -157,7 +157,27 @@ p {
 .foto-bio .testo {
   font-size: 18px;
 }
-
+.foto-life {
+  position: relative;
+  float: left;
+  margin-top: 125px;
+  margin-left: 25px;
+  width: : auto;
+}
+.foto-life p{
+  float:left;
+  margin-top: 50px;
+  text-align:left;
+}
+.foto-life img{
+  width:250px;
+  padding: 0 15px 15px 0;
+  border-radius: 10px 10px 10px 10px;
+}
+.foto-life .testo {
+  font-size: 18px;
+  color: #000000;
+}
 @media (max-width: 1980px){
   .home .max-width{
     margin-left: 0px;
