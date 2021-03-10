@@ -213,6 +213,27 @@ p {
   color: #000000;
   text-align: center;
 }
+.foto-hard {
+  position: relative;
+  float: left;
+  margin-top: 125px;
+  margin-left: 25px;
+  width: : auto;
+}
+.foto-hard p{
+  float:left;
+  margin-top: 50px;
+  text-align:left;
+}
+.foto-hard img{
+  width:450px;
+  padding: 0 15px 15px 0;
+  border-radius: 10px 10px 10px 10px;
+}
+.foto-hard .testo {
+  font-size: 18px;
+  color: #000000;
+}
 
 @media (max-width: 1980px){
   .home .max-width{
