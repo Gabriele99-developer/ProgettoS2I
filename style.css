@@ -234,6 +234,27 @@ p {
   font-size: 18px;
   color: #000000;
 }
+.foto-future {
+  position: relative;
+  float: left;
+  margin-top: 125px;
+  margin-left: 25px;
+  width: : auto;
+}
+.foto-future p{
+  float:left;
+  margin-top: 50px;
+  text-align:left;
+}
+.foto-future img{
+  width:450px;
+  padding: 0 15px 15px 0;
+  border-radius: 10px 10px 10px 10px;
+}
+.foto-future .testo {
+  font-size: 18px;
+  color: #000000;
+}
 
 @media (max-width: 1980px){
   .home .max-width{
