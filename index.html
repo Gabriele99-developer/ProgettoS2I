@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gabriele Portfolio Sito Web</title>
   <link rel="stylesheet" href="style.css"/>
+
+  <!-- JavaScript -->
+  <script src="jquery-1.7.1.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+
+  //When btn is clicked
+  $(".btn-responsive-menu").click(function() {
+    $("#mainmenu").toggleClass("show");
+
+  });
+
+  });
+  </script>
 </head>
 <body>
   <nav class="navbar">
@@ -18,9 +33,11 @@
         <li><a href="future.html">Futuro</a></li>
         <li><a href="contacts.html">Contatti</a></li>
       </ul>
-      <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div>
+  <div class="btn-responsive-menu">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </div>
     </div>
   </nav>
 

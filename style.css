@@ -43,11 +43,40 @@
 .navbar .menu li a:hover {
   color: #d2d2d2;
 }
-.menu-btn {
-  color: #fff;
-  font-size: 23px;
-  cursor: pointer;
+.btn-responsive-menu {
+  display: none;
+  float: right;
+  padding:5px;
+  cursor:pointer;
+  margin:  0px 20px 0 0;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background:#333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
+
+	.icon-bar {
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin:5px;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  }
+
+	.show {
+    display: block;
+  }
+
+
+
 .home {
   display: flex;
   min-height: 100px;
@@ -104,7 +133,7 @@ p {
     position: relative;
     width: 25px;
     height: 25px;
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
   .max2-width{
@@ -139,6 +168,7 @@ p {
    margin-top: 125px;
    margin-left: 25px;
    width: : auto;
+   z-index: -1;
  }
  .foto-bio p{
    float:left;
@@ -147,7 +177,7 @@ p {
 }
 .foto-bio img{
    width:250px;
-   padding: 0 15px 15px 0;
+   margin: 0 15px 15px 0;
    border-radius: 10px 10px 10px 10px;
 }
 .foto-bio span {
@@ -163,6 +193,7 @@ p {
   margin-top: 125px;
   margin-left: 25px;
   width: : auto;
+  z-index: -1;
 }
 .foto-life p{
   float:left;
@@ -171,7 +202,7 @@ p {
 }
 .foto-life img{
   width:250px;
-  padding: 0 15px 15px 0;
+  margin: 0 15px 15px 0;
   border-radius: 10px 10px 10px 10px;
 }
 .foto-life .testo {
@@ -184,6 +215,7 @@ p {
   margin-top: 125px;
   margin-left: 25px;
   width: : auto;
+  z-index: -1;
 }
 .foto-soft p{
   float:left;
@@ -192,7 +224,7 @@ p {
 }
 .foto-soft img{
   width:450px;
-  padding: 0 15px 15px 0;
+  margin: 0 15px 15px 0;
   border-radius: 10px 10px 10px 10px;
 }
 .foto-soft .testo {
@@ -219,6 +251,7 @@ p {
   margin-top: 125px;
   margin-left: 25px;
   width: : auto;
+  z-index: -1;
 }
 .foto-hard p{
   float:left;
@@ -227,7 +260,7 @@ p {
 }
 .foto-hard img{
   width:450px;
-  padding: 0 15px 15px 0;
+  margin: 0 15px 15px 0;
   border-radius: 10px 10px 10px 10px;
 }
 .foto-hard .testo {
@@ -240,6 +273,7 @@ p {
   margin-top: 125px;
   margin-left: 25px;
   width: : auto;
+  z-index: -1;
 }
 .foto-future p{
   float:left;
@@ -248,7 +282,7 @@ p {
 }
 .foto-future img{
   width:450px;
-  padding: 0 15px 15px 0;
+  margin: 0 15px 15px 0;
   border-radius: 10px 10px 10px 10px;
 }
 .foto-future .testo {
@@ -266,14 +300,11 @@ p {
   .max-width{
     padding: 0 50px;
   }
-  .menu-btn {
-    display: block;
-    z-index: 999;
-  }
-  .menu-btn i.active:before {
-    content: "/f00d";
-  }
+.btn-responsive-menu {
+  display: block;
+}
   .navbar .menu {
+    display: none;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -294,6 +325,7 @@ p {
   display: inline-block;
   margin: 20px 0;
   font-size: 25px;
+  float: none;
 }
 .home .home-content .text-2 {
   font-size: 70px;
@@ -305,6 +337,11 @@ p {
   font-size: 23px;
   padding: 10px 30px;
 }
+$(".btn-responsive-menu").click(function() {
+
+	$(".navbar .menu").toggleClass("show");
+
+});
 }
 
 /* width */
