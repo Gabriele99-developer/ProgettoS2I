@@ -346,13 +346,14 @@ p {
 #modulo ul li input{
   border: solid 2px #000;
   background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: #000000;
   float: left;
 }
 #modulo ul li .testo{
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
+  border-radius: 6px;
 }
 #modulo ul li textarea {
   padding: 10px;
@@ -362,6 +363,7 @@ p {
   background: rgba(255, 255, 255, 0.2);
   border: solid 2px #000;
   box-sizing: border-box;
+  border-radius: 6px;
 }
 #modulo ul li .pulsante {
   display: inline-block;
