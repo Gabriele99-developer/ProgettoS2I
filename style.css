@@ -110,10 +110,12 @@
   margin-top: 20px;
   border-radius: 6px;
   border: 2px solid #6f00ff;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 .home .home-content a:hover {
-  color:  #d2d2d2;
+  background: #d2d2d2;
+  color: #000000;
+  border: solid 2px #6f00ff;
 }
 body {
   background-color: #d2d2d2;
@@ -139,7 +141,7 @@ p {
   .max2-width{
     display: flex;
     background-color: #828282;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 100%;
     align-items: center;
     padding: 50px;
@@ -288,6 +290,95 @@ p {
 .foto-future .testo {
   font-size: 18px;
   color: #000000;
+}
+.content {
+  padding: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  float: left;
+}
+#modulo {
+  padding: 15px;
+  color: #fff;
+  overflow: auto;
+}
+#modulo h1{
+  color: #000000;
+  margin: 0;
+}
+#modulo h2 {
+  color: #000000;
+  margin: 15px 0 25px;
+}
+#modulo ul label {
+  color: #000000;
+}
+#modulo ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#modulo ul li{
+  padding: 10px 0;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+#modulo ul li.tre,#moduo ul li.quattro{
+  float: none;
+  clear: left;
+  width: 100%;
+}
+#modulo ul li.uno{
+  margin-right: 1%;
+}
+#modulo ul li .quattro {
+  padding: 20px 0;
+  text-align: center;
+}
+#modulo ul li label{
+  display: block;
+  padding-bottom: 5px;
+  width: 50%;
+}
+#modulo ul li input{
+  border: solid 2px #000;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  float: left;
+}
+#modulo ul li .testo{
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#modulo ul li textarea {
+  padding: 10px;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  border: solid 2px #000;
+  box-sizing: border-box;
+}
+#modulo ul li .pulsante {
+  display: inline-block;
+  background: #6f00ff;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #6f00ff;
+  transition: all 0.5s ease;
+}
+#modulo ul li .pulsante:hover {
+  background: #d2d2d2;
+  color: #000000;
+  border: solid 2px #6f00ff;
+  cursor: pointer;
 }
 
 @media (max-width: 1980px){
