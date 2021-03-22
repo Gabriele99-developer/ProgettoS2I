@@ -48,7 +48,7 @@
   float: right;
   padding:5px;
   cursor:pointer;
-  margin:  0px 20px 0 0;
+  margin:  0px 0px 0px 40px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background:#333;
@@ -117,6 +117,13 @@
   color: #000000;
   border: solid 2px #6f00ff;
 }
+.foto_index img {
+  width:250px;
+  margin: 0 15px 15px 0;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 150px;
+  margin-left: 25px;
+}
 body {
   background-color: #d2d2d2;
 }
@@ -169,7 +176,7 @@ p {
    float: left;
    margin-top: 125px;
    margin-left: 25px;
-   width: : auto;
+   width: auto;
    z-index: -1;
  }
  .foto-bio p{
@@ -194,7 +201,7 @@ p {
   float: left;
   margin-top: 125px;
   margin-left: 25px;
-  width: : auto;
+  width: auto;
   z-index: -1;
 }
 .foto-life p{
@@ -216,7 +223,7 @@ p {
   float: left;
   margin-top: 125px;
   margin-left: 25px;
-  width: : auto;
+  width: auto;
   z-index: -1;
 }
 .foto-soft p{
@@ -242,7 +249,7 @@ div .testo2 {
   float: left;
   margin-top: 125px;
   margin-left: 25px;
-  width: : auto;
+  width: auto;
   z-index: -1;
 }
 .foto-hard p{
@@ -264,7 +271,7 @@ div .testo2 {
   float: left;
   margin-top: 125px;
   margin-left: 25px;
-  width: : auto;
+  width: auto;
   z-index: -1;
 }
 .foto-future p{
@@ -282,7 +289,7 @@ div .testo2 {
   color: #000000;
 }
 .content {
-  padding: 200px;
+  padding: 100px 50px 50px 50px;
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
@@ -373,43 +380,43 @@ div .testo2 {
   cursor: pointer;
 }
 
+.show{display:block!important;}
+
 @media (max-width: 1980px){
   .home .max-width{
     margin-left: 0px;
   }
 
 }
-@media (max-width:1167px) {
-  .max-width{
-    padding: 0 50px;
-  }
-.btn-responsive-menu {
-  display: block;
+
+@media (max-width:1141px) {
+
+  #mainmenu 		{
+    display:none;
 }
-  .navbar .menu {
-    display: none;
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    left: -100%;
-    top:0;
-    background: #111;
-    text-align: center;
-    padding-top: 80px;
-    transition: all 0.3s ease;
+
+  #mainmenu ul  	{
+    position: absolute;
+    right:0px;
+    top:100px;
+    width:220px;
+    }
+
+    #mainmenu ul  li{
+      display: list-item;
+      position: relative;
+      width:200px;
+      height:50px;
+      float: right;
+      background: #6f00ff;
+    }
+
+  .btn-responsive-menu{
+    display:block;
   }
-  .navbar .menu.active {
-    left: 0;
-  }
-  .navbar .menu li {
-    display: block;
-  }
-.navbar .menu li a {
-  display: inline-block;
-  margin: 20px 0;
-  font-size: 25px;
-  float: none;
+
 }
+
 .home .home-content .text-2 {
   font-size: 70px;
 }
@@ -419,12 +426,6 @@ div .testo2 {
 .home .home-content a {
   font-size: 23px;
   padding: 10px 30px;
-}
-$(".btn-responsive-menu").click(function() {
-
-	$(".navbar .menu").toggleClass("show");
-
-});
 }
 
 /* width */
