@@ -83,7 +83,7 @@
   font-family: "Ubuntu",sans-serif;
 }
 .home .max-width {
-  margin: 150px 0 auto 40px;
+  margin: 50px 0 auto 40px;
 }
 .home .home-content .text-1 {
   font-size: 27px;
@@ -117,12 +117,14 @@
   color: #000000;
   border: solid 2px #6f00ff;
 }
-.foto_index img {
-  width:250px;
-  margin: 0 15px 15px 0;
-  border-radius: 10px 10px 10px 10px;
-  margin-top: 150px;
-  margin-left: 25px;
+#foto_index {
+  top: 1100px;
+  width:100%;
+  min-height:650px;
+  background-image: url("images/home.png");
+  background-size:cover;
+  background-position: top left;
+
 }
 body {
   background-color: #d2d2d2;
